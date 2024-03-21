@@ -43,6 +43,9 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 
+# my R notes
+setupNotes.R
+
 # pkgdown site
 docs/
 
