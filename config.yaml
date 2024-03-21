@@ -60,6 +60,10 @@ contact: 'jamison@library.ucla.edu' # FIXME  <- change to datascience@ucla.edu o
 # Order of episodes in your lesson
 episodes:
 - introduction.md
+- configure-rclone.md
+- creating-connections.md
+- moving-files.md
+- getting-help.md
 
 # Information for Learners
 learners:
