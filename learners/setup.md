@@ -1,5 +1,5 @@
 ---
-title: Setup
+title: Setup and Installation
 ---
 
 FIXME: Setup instructions live in this document. Please specify the tools and
@@ -24,10 +24,15 @@ Setup for different systems can be presented in dropdown menus via a `spoiler`
 tag. They will join to this discussion block, so you can give a general overview
 of the software used in this lesson here and fill out the individual operating
 systems (and potentially add more, e.g. online setup) in the solutions blocks.
+# 
+
+### Rclone download page: 
+[Rclone downloads for various OS ](https://rclone.org/downloads/) 
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::: spoiler
+<!--
 
 ### Windows
 
@@ -51,4 +56,4 @@ Use Terminal.app
 Use Terminal
 
 ::::::::::::::::::::::::
-
+-->
