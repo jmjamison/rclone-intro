@@ -14,7 +14,7 @@ carpentry: 'incubator'
 title: 'Introduction to Rclone' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 2024-03-21 # FIXME
+created: ~ # FIXME
 
 # Comma-separated list of keywords for the lesson
 keywords: 'software, data, rclone, The Carpentries' # FIXME
