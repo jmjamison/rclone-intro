@@ -10,7 +10,7 @@ exercises: 2
 -   How could rclone help you manage your data?
 :::
 
-::: objectives 
+::: objectives
 -   Be able to transfer data from the command line using rclone
 -   Know where to get help and examples
 -   [something else]
