@@ -19,7 +19,6 @@ exercises: 2
 - [something else]
 
 
-
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
