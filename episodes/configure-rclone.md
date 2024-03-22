@@ -8,12 +8,17 @@ date: "2024-03-21"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Configuring rclone: config command
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Enter an interactive configuration session where you can setup new remotes and manage existing ones. You may also set or remove a password to protect your configuration.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+##### syntax:  rclone config [flags]
 
-```{r cars}
-summary(cars)
 ```
+rclone config 
+
+```
+
+## Reference
+
+[https://rclone.org/commands/rclone_config/](https://rclone.org/commands/rclone_config/)
