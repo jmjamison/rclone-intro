@@ -31,20 +31,21 @@ How do you think you might use rclone?
   
 
 ::: solution
-## Output
+## Discuss
 
 ``` 
 - For large files and/or multiple files rclone is efficient and fast
-- Backup worksand
+- Backup work
 
 ```
 :::
 
 ## Rclone command syntax
 
-###rclone command source:source-folder  destination:destination-folder
+### rclone [command] source:source-folder  destination:destination-folder
 
 List of rclone commands: [https://rclone.org/commands/](https://rclone.org/commands/)
+
 
 ::: keypoints
 -   Use `.md` files for episodes when you want static content
