@@ -73,6 +73,9 @@
     <loc>https://ucla-data-science-center.github.io/rclone-intro.git/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>https://ucla-data-science-center.github.io/rclone-intro.git/instructor/setup.html</loc>
+  </url>
+  <url>
     <loc>https://ucla-data-science-center.github.io/rclone-intro.git/instructor-notes.html</loc>
   </url>
   <url>
@@ -89,5 +92,8 @@
   </url>
   <url>
     <loc>https://ucla-data-science-center.github.io/rclone-intro.git/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://ucla-data-science-center.github.io/rclone-intro.git/setup.html</loc>
   </url>
 </urlset>
