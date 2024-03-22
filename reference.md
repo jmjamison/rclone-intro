@@ -4,5 +4,10 @@ title: 'Reference'
 
 ## Glossary
 
-This is a placeholder file. Please add content here. 
+copy
+sync
 
+
+## References
+
+Rclond page:  [https://rclone.org/](https://rclone.org/)
