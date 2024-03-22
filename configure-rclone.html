@@ -166,7 +166,8 @@
         
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#r-markdown">R Markdown</a></li>
+        <ul><li><a href="#configuring-rclone-config-command">Configuring rclone: config command</a></li>
+<li><a href="#reference">Reference</a></li>
         </ul></div><!--/div.accordion-body-->
     </div><!--/div.accordion-collapse-->
         
@@ -267,7 +268,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Configuring Rclone</h1>
-        <p>Last updated on 2024-03-21 |
+        <p>Last updated on 2024-03-22 |
         
         <a href="https://github.com/ucla-data-science-center/rclone-intro.git/edit/main/episodes/configure-rclone.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -280,16 +281,19 @@
         
 
 <p><code>{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)</code></p>
-<section id="r-markdown"><h2 class="section-heading">R Markdown<a class="anchor" aria-label="anchor" href="#r-markdown"></a>
+<section id="configuring-rclone-config-command"><h2 class="section-heading">Configuring rclone: config command<a class="anchor" aria-label="anchor" href="#configuring-rclone-config-command"></a>
 </h2>
-<hr class="half-width"><p>This is an R Markdown document. Markdown is a simple formatting
-syntax for authoring HTML, PDF, and MS Word documents. For more details
-on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="external-link uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be
-generated that includes both content as well as the output of any
-embedded R code chunks within the document. You can embed an R code
-chunk like this:</p>
-<p><code>{r cars} summary(cars)</code></p>
+<hr class="half-width"><p>Enter an interactive configuration session where you can setup new
+remotes and manage existing ones. You may also set or remove a password
+to protect your configuration.</p>
+<div class="section level5">
+<h5 id="syntax-rclone-config-flags">syntax: rclone config [flags]<a class="anchor" aria-label="anchor" href="#syntax-rclone-config-flags"></a></h5>
+<pre><code>rclone config 
+</code></pre>
+</div>
+</section><section id="reference"><h2 class="section-heading">Reference<a class="anchor" aria-label="anchor" href="#reference"></a>
+</h2>
+<hr class="half-width"><p><a href="https://rclone.org/commands/rclone_config/" class="external-link">https://rclone.org/commands/rclone_config/</a></p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -352,7 +356,7 @@ any links that you are not going to use.
   "url": "https://ucla-data-science-center.github.io/rclone-intro.git/configure-rclone.html",
   "identifier": "https://ucla-data-science-center.github.io/rclone-intro.git/configure-rclone.html",
   "dateCreated": "2024-03-22",
-  "dateModified": "2024-03-21",
+  "dateModified": "2024-03-22",
   "datePublished": "2024-03-22"
 }
 

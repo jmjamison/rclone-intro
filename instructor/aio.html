@@ -371,7 +371,7 @@ various subcommands, the various options, and more.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Discuss</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <pre><code>- For large files and/or multiple files rclone is efficient and fast
 - Backup work
@@ -383,10 +383,10 @@ various subcommands, the various options, and more.</p>
 </section><section id="rclone-command-syntax"><h2 class="section-heading">Rclone command syntax<a class="anchor" aria-label="anchor" href="#rclone-command-syntax"></a>
 </h2>
 <hr class="half-width">
-<div class="section level3">
-<h3 id="rclone-command-sourcesource-folder-destinationdestination-folder">rclone [command] source:source-folder
+<div class="section level5">
+<h5 id="rclone-command-sourcesource-folder-destinationdestination-folder">rclone [command] source:source-folder
 destination:destination-folder<a class="anchor" aria-label="anchor" href="#rclone-command-sourcesource-folder-destinationdestination-folder"></a>
-</h3>
+</h5>
 <p>List of rclone commands: <a href="https://rclone.org/commands/" class="external-link">https://rclone.org/commands/</a></p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
@@ -416,88 +416,78 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-configure-rclone"><p>Content from <a href="configure-rclone.html">Configuring Rclone</a></p>
 <hr>
-<p>Last updated on 2024-03-21 |
+<p>Last updated on 2024-03-22 |
         
         <a href="https://github.com/ucla-data-science-center/rclone-intro.git/edit/main/episodes/configure-rclone.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p><code>{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)</code></p>
-<section id="r-markdown"><h2 class="section-heading">R Markdown<a class="anchor" aria-label="anchor" href="#r-markdown"></a>
+<section id="configuring-rclone-config-command"><h2 class="section-heading">Configuring rclone: config command<a class="anchor" aria-label="anchor" href="#configuring-rclone-config-command"></a>
 </h2>
 <hr class="half-width">
-<p>This is an R Markdown document. Markdown is a simple formatting
-syntax for authoring HTML, PDF, and MS Word documents. For more details
-on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="external-link uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be
-generated that includes both content as well as the output of any
-embedded R code chunks within the document. You can embed an R code
-chunk like this:</p>
-<p><code>{r cars} summary(cars)</code></p>
+<p>Enter an interactive configuration session where you can setup new
+remotes and manage existing ones. You may also set or remove a password
+to protect your configuration.</p>
+<div class="section level5">
+<h5 id="syntax-rclone-config-flags">syntax: rclone config [flags]<a class="anchor" aria-label="anchor" href="#syntax-rclone-config-flags"></a>
+</h5>
+<pre><code>rclone config 
+</code></pre>
+</div>
+</section><section id="reference"><h2 class="section-heading">Reference<a class="anchor" aria-label="anchor" href="#reference"></a>
+</h2>
+<hr class="half-width">
+<p><a href="https://rclone.org/commands/rclone_config/" class="external-link">https://rclone.org/commands/rclone_config/</a></p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
 </section></section><section id="aio-creating-connections"><p>Content from <a href="creating-connections.html">Creating Connections</a></p>
 <hr>
-<p>Last updated on 2024-03-21 |
+<p>Last updated on 2024-03-22 |
         
         <a href="https://github.com/ucla-data-science-center/rclone-intro.git/edit/main/episodes/creating-connections.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p><code>{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)</code></p>
-<section id="r-markdown"><h2 class="section-heading">R Markdown<a class="anchor" aria-label="anchor" href="#r-markdown"></a>
+<section id="creating-a-connection"><h2 class="section-heading">Creating a connection<a class="anchor" aria-label="anchor" href="#creating-a-connection"></a>
+</h2>
+<hr class="half-width"></section><section id="reference"><h2 class="section-heading">Reference<a class="anchor" aria-label="anchor" href="#reference"></a>
 </h2>
 <hr class="half-width">
-<p>This is an R Markdown document. Markdown is a simple formatting
-syntax for authoring HTML, PDF, and MS Word documents. For more details
-on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="external-link uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be
-generated that includes both content as well as the output of any
-embedded R code chunks within the document. You can embed an R code
-chunk like this:</p>
-<p><code>{r cars} summary(cars)</code></p>
-</section><section id="including-plots"><h2 class="section-heading">Including Plots<a class="anchor" aria-label="anchor" href="#including-plots"></a>
-</h2>
-<hr class="half-width">
-<p>You can also embed plots, for example:</p>
-<p><code>{r pressure, echo=FALSE} plot(pressure)</code></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the
-code chunk to prevent printing of the R code that generated the
-plot.</p>
+<p><a href="https://rclone.org/commands/rclone_config/" class="external-link">https://rclone.org/commands/rclone_config/</a></p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
 </section></section><section id="aio-moving-files"><p>Content from <a href="moving-files.html">Moving Files</a></p>
 <hr>
-<p>Last updated on 2024-03-21 |
+<p>Last updated on 2024-03-22 |
         
         <a href="https://github.com/ucla-data-science-center/rclone-intro.git/edit/main/episodes/moving-files.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p><code>{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)</code></p>
-<section id="r-markdown"><h2 class="section-heading">R Markdown<a class="anchor" aria-label="anchor" href="#r-markdown"></a>
+<section id="moving-files"><h2 class="section-heading">Moving Files<a class="anchor" aria-label="anchor" href="#moving-files"></a>
 </h2>
 <hr class="half-width">
-<p>This is an R Markdown document. Markdown is a simple formatting
-syntax for authoring HTML, PDF, and MS Word documents. For more details
-on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="external-link uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be
-generated that includes both content as well as the output of any
-embedded R code chunks within the document. You can embed an R code
-chunk like this:</p>
-<p><code>{r cars} summary(cars)</code></p>
-</section><section id="including-plots"><h2 class="section-heading">Including Plots<a class="anchor" aria-label="anchor" href="#including-plots"></a>
+<p>Moves the contents of the source directory to the destination
+directory. Rclone will error if the source and destination overlap and
+the remote does not support a server-side directory move operation.</p>
+<p>To move single files, use the moveto command instead.</p>
+<p>##Important Note:## Since this can cause data loss, ##test first with
+the –dry-run or the –interactive/-i flag##.</p>
+<div class="section level5">
+<h5 id="syntax-rclone-move-sourcepath-destpath-flags">syntax: rclone move source:path dest:path [flags]<a class="anchor" aria-label="anchor" href="#syntax-rclone-move-sourcepath-destpath-flags"></a>
+</h5>
+</div>
+</section><section id="reference-httpsrclone.orgcommandsrclone_move"><h2 class="section-heading">Reference: <a href="https://rclone.org/commands/rclone_move/" class="external-link">https://rclone.org/commands/rclone_move/</a><a class="anchor" aria-label="anchor" href="#reference-httpsrclone.orgcommandsrclone_move"></a>
 </h2>
 <hr class="half-width">
-<p>You can also embed plots, for example:</p>
-<p><code>{r pressure, echo=FALSE} plot(pressure)</code></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the
-code chunk to prevent printing of the R code that generated the
-plot.</p>
+<p>```</p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
@@ -511,32 +501,46 @@ any links that you are not going to use.
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
 <p><code>{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)</code></p>
-<section id="r-markdown"><h2 class="section-heading">R Markdown<a class="anchor" aria-label="anchor" href="#r-markdown"></a>
+<section id="copy-vs-sync"><h2 class="section-heading">Copy vs Sync<a class="anchor" aria-label="anchor" href="#copy-vs-sync"></a>
 </h2>
 <hr class="half-width">
-<p>This is an R Markdown document. Markdown is a simple formatting
-syntax for authoring HTML, PDF, and MS Word documents. For more details
-on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="external-link uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be
-generated that includes both content as well as the output of any
-embedded R code chunks within the document. You can embed an R code
-chunk like this:</p>
-<p><code>{r cars} summary(cars)</code></p>
-</section><section id="including-plots"><h2 class="section-heading">Including Plots<a class="anchor" aria-label="anchor" href="#including-plots"></a>
-</h2>
-<hr class="half-width">
-<p>You can also embed plots, for example:</p>
-<p><code>{r pressure, echo=FALSE} plot(pressure)</code></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the
-code chunk to prevent printing of the R code that generated the
-plot.</p>
+<p><strong>Copy</strong> Copy files from source to dest, skipping
+identical files.</p>
+<p>Copy the source to the destination. Does not transfer files that are
+identical on source and destination, testing by size and modification
+time or MD5SUM. Doesn’t delete files from the destination. If you want
+to also delete files from destination, to make it match source, use the
+sync command instead.</p>
+<div class="section level5">
+<h5 id="syntax-rclone-copy-sourcesourcepath-destdestpath">syntax: rclone copy source:sourcepath dest:destpath<a class="anchor" aria-label="anchor" href="#syntax-rclone-copy-sourcesourcepath-destdestpath"></a>
+</h5>
+<p>Note that it is always the contents of the directory that is synced,
+not the directory itself. So when source:path is a directory, it’s the
+contents of source:path that are copied, not the directory name and
+contents.</p>
+<p>To copy single files, use the copyto command instead.</p>
+<p>If dest:path doesn’t exist, it is created and the source:path
+contents go there.</p>
+<p><strong>Sync</strong> Make source and dest identical, modifying
+destination only.</p>
+<p>Sync the source to the destination, changing the destination only.
+Doesn’t transfer files that are identical on source and destination,
+testing by size and modification time or MD5SUM. Destination is updated
+to match source, including deleting files if necessary (except duplicate
+objects, see below). If you don’t want to delete files from destination,
+use the copy command instead.</p>
+</div>
+<div class="section level5">
+<h5 id="syntax-rclone-sync-interactive-source-remotedestination">syntax: rclone sync –interactive SOURCE remote:DESTINATION<a class="anchor" aria-label="anchor" href="#syntax-rclone-sync-interactive-source-remotedestination"></a>
+</h5>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
+</div>
 </section></section><section id="aio-getting-help"><p>Content from <a href="getting-help.html">Getting Help</a></p>
 <hr>
-<p>Last updated on 2024-03-21 |
+<p>Last updated on 2024-03-22 |
         
         <a href="https://github.com/ucla-data-science-center/rclone-intro.git/edit/main/episodes/getting-help.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <div class="text-end">
@@ -546,22 +550,7 @@ any links that you are not going to use.
 <section id="r-markdown"><h2 class="section-heading">R Markdown<a class="anchor" aria-label="anchor" href="#r-markdown"></a>
 </h2>
 <hr class="half-width">
-<p>This is an R Markdown document. Markdown is a simple formatting
-syntax for authoring HTML, PDF, and MS Word documents. For more details
-on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="external-link uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be
-generated that includes both content as well as the output of any
-embedded R code chunks within the document. You can embed an R code
-chunk like this:</p>
-<p><code>{r cars} summary(cars)</code></p>
-</section><section id="including-plots"><h2 class="section-heading">Including Plots<a class="anchor" aria-label="anchor" href="#including-plots"></a>
-</h2>
-<hr class="half-width">
-<p>You can also embed plots, for example:</p>
-<p><code>{r pressure, echo=FALSE} plot(pressure)</code></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the
-code chunk to prevent printing of the R code that generated the
-plot.</p>
+<p>put in the syntax for getting help on a command</p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
