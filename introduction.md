@@ -20,7 +20,8 @@ exercises: 2
 
 Rclone is a command line program to manage files on cloud storage. After download and install, continue here to learn how to use it: Initial configuration, what the basic syntax looks like, describes the various subcommands, the various options, and more.
 
-Put an illustration here - after I make it.
+![Test Illustration](test-illustration.jpg)
+
 
 ::: challenge
 ## Challenge 1: What can you do with Rclone?
