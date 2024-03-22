@@ -40,6 +40,12 @@ How do you think you might use rclone?
 ```
 :::
 
+## Rclone command syntax
+
+###rclone command source:source-folder  destination:destination-folder
+
+List of rclone commands: [https://rclone.org/commands/](https://rclone.org/commands/)
+
 ::: keypoints
 -   Use `.md` files for episodes when you want static content
 -   Use `.Rmd` files for episodes when you need to generate output
