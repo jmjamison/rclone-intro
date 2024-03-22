@@ -5,8 +5,8 @@ editor_options:
     wrap: 72
 ---
 
-FIXME: Setup instructions live in this document. Please specify the
-tools and the data sets the Learner needs to have installed.
+
+Rclone is a cross-platform application. It runs on Linux, Windows and MacOS. The installation files for different systems can be found on the Rclone download page.
 
 
 ## Software Setup
@@ -14,7 +14,6 @@ tools and the data sets the Learner needs to have installed.
 ::: discussion
 ### Details
 
-Rclone is a cross-platform application. It runs on Linux, Windows and MacOS. The installation files for different systems can be found on the Rclone download page.
 
 
 [Rclone downloads for various OS](https://rclone.org/downloads/)
