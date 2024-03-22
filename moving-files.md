@@ -8,22 +8,19 @@ date: "2024-03-21"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Moving Files
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Moves the contents of the source directory to the destination directory. Rclone will error if the source and destination overlap and the remote does not support a server-side directory move operation.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+To move single files, use the moveto command instead.
 
-```{r cars}
-summary(cars)
+##Important Note:## Since this can cause data loss, ##test first with the --dry-run or the --interactive/-i flag##.
+
+
+##### syntax: rclone move source:path dest:path [flags]
+
+## Reference:  [https://rclone.org/commands/rclone_move/](https://rclone.org/commands/rclone_move/)
+
+
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

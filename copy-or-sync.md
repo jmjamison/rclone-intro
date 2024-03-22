@@ -8,22 +8,25 @@ date: "2024-03-22"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Copy vs Sync
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+**Copy** 
+Copy files from source to dest, skipping identical files.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Copy the source to the destination. Does not transfer files that are identical on source and destination, testing by size and modification time or MD5SUM. Doesn't delete files from the destination. If you want to also delete files from destination, to make it match source, use the sync command instead. 
 
-```{r cars}
-summary(cars)
-```
+#####  syntax: rclone copy source:sourcepath dest:destpath 
 
-## Including Plots
+Note that it is always the contents of the directory that is synced, not the directory itself. So when source:path is a directory, it's the contents of source:path that are copied, not the directory name and contents.
 
-You can also embed plots, for example:
+To copy single files, use the copyto command instead.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+If dest:path doesn't exist, it is created and the source:path contents go there.
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+**Sync** 
+Make source and dest identical, modifying destination only.
+
+Sync the source to the destination, changing the destination only. Doesn't transfer files that are identical on source and destination, testing by size and modification time or MD5SUM. Destination is updated to match source, including deleting files if necessary (except duplicate objects, see below). If you don't want to delete files from destination, use the copy command instead.
+
+##### syntax: rclone sync --interactive SOURCE remote:DESTINATION

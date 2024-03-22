@@ -42,9 +42,12 @@ How do you think you might use rclone?
 
 ## Rclone command syntax
 
-### rclone [command] source:source-folder  destination:destination-folder
+##### rclone [command] source:source-folder  destination:destination-folder 
 
-List of rclone commands: [https://rclone.org/commands/](https://rclone.org/commands/)
+
+List of rclone commands: [https://rclone.org/commands/](https://rclone.org/commands/) 
+
+
 
 
 ::: keypoints
