@@ -1,26 +1,43 @@
 ---
-title: "Moving Files"
+title: "moving files"
 output: html_document
-date: "2024-03-21"
+date: "2024-03-26"
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+## moving files around
 
-## Moving Files
-
-Moves the contents of the source directory to the destination directory. Rclone will error if the source and destination overlap and the remote does not support a server-side directory move operation.
-
-To move single files, use the moveto command instead.
-
-##Important Note:## Since this can cause data loss, ##test first with the --dry-run or the --interactive/-i flag##.
+Rclone is most frequently used to move files, individually or as a group from one place to another.
 
 
-##### syntax: rclone move source:path dest:path [flags]
+The syntax for the places, to or from is:
 
-## Reference:  [https://rclone.org/commands/rclone_move/](https://rclone.org/commands/rclone_move/)
+source:folder     destination:folder   
+
+or
+
+local/path  remote/path
 
 
-```
+##### more examples:
 
+rclone **ls** remote:path # **lists contents of a remote**
+rclone **copy** /local/path remote:path # **copies&& /local/path to the remote
+rclone **sync** --interactive /local/path remote:path # **syncs** /local/path to the remote
+
+
+##### my home backup to an external drive (windows using linux subsystem)
+rclone sync /mnt/d/work-related /mnt/f/work-related-backup
+
+
+## Different operating systems have __slightly__ different syntax 
+
+Windows syntax:   rclone ls C:\Users\jjamison\rclone
+Linux syntax:  rclone ls /mnt/c/Users/jjamison/rclone
+
+
+## Reference:
+[https://rclone.org/docs/#subcommands](https://rclone.org/docs/#subcommands)
+
+Windows [https://rclone.org/docs/#windows](https://rclone.org/docs/#windows)
+
+Linux  [https://rclone.org/docs/#linux-osx](https://rclone.org/docs/#linux-osx)

@@ -61,8 +61,9 @@ contact: 'jamison@library.ucla.edu' # FIXME  <- change to datascience@ucla.edu o
 episodes:
 - introduction.md
 - configure-rclone.md
-- creating-connections.md
 - moving-files.md
+- creating-connections.md
+- rclone-move-command.md
 - copy-or-sync.md
 - getting-help.md
 
