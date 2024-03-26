@@ -8,7 +8,7 @@ date: "2024-03-21"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Configuring rclone: config command
+## Configuring rclone: config command to enter interactive setup
 
 Enter an interactive configuration session where you can setup new remotes and manage existing ones. You may also set or remove a password to protect your configuration.
 
@@ -18,6 +18,8 @@ Enter an interactive configuration session where you can setup new remotes and m
 rclone config 
 
 ```
+![rclone config ](rclone-config-screen-image.jpg)
+
 
 ## Reference
 
