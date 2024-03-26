@@ -5,14 +5,14 @@ date: "2024-03-21"
 ---
 
 
-## rclone config command: enter an interactive setup
+## rclone config command: 
 
 Enter an interactive configuration session where you can setup new remotes and manage existing ones. You may also set or remove a password to protect your configuration.
 
 ##### syntax:  rclone config [flags]
  
 ![rclone config ](rclone-config-screen-image.jpg)  
-
+sand
 
 ![rclone config edit ](rclone-config-interactive.JPG)
 
@@ -28,7 +28,7 @@ There are numerous command flags but these three are especially worth rememberin
 
 
 
-## Reference
+## References
 
 [https://rclone.org/commands/rclone_config/](https://rclone.org/commands/rclone_config/)
 
