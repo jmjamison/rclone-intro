@@ -193,7 +193,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="configure-rclone.html">2. Configuring Rclone</a>
+        <a href="configure-rclone.html">2. rclone config command</a>
     </div>
 <!--/div.accordion-header-->
         
@@ -366,7 +366,7 @@ various subcommands, the various options, and more.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1">Discuss</h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <pre><code>- For large files and/or multiple files rclone is efficient and fast
 - Backup work
@@ -409,7 +409,7 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
 </div>
-</section></section><section id="aio-configure-rclone"><p>Content from <a href="configure-rclone.html">Configuring Rclone</a></p>
+</section></section><section id="aio-configure-rclone"><p>Content from <a href="configure-rclone.html">rclone config command</a></p>
 <hr>
 <p>Last updated on 2024-03-26 |
         
@@ -417,8 +417,7 @@ any links that you are not going to use.
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
-<p><code>{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE)</code></p>
-<section id="configuring-rclone-config-command-to-enter-interactive-setup"><h2 class="section-heading">Configuring rclone: config command to enter interactive setup<a class="anchor" aria-label="anchor" href="#configuring-rclone-config-command-to-enter-interactive-setup"></a>
+<section id="rclone-config-command-enter-an-interactive-setup"><h2 class="section-heading">rclone config command: enter an interactive setup<a class="anchor" aria-label="anchor" href="#rclone-config-command-enter-an-interactive-setup"></a>
 </h2>
 <hr class="half-width">
 <p>Enter an interactive configuration session where you can setup new
@@ -427,15 +426,29 @@ to protect your configuration.</p>
 <div class="section level5">
 <h5 id="syntax-rclone-config-flags">syntax: rclone config [flags]<a class="anchor" aria-label="anchor" href="#syntax-rclone-config-flags"></a>
 </h5>
-<pre><code>rclone config 
-</code></pre>
 <figure><img src="rclone-config-screen-image.jpg" alt="rclone config" class="figure mx-auto d-block"><div class="figcaption">rclone config</div>
+</figure><figure><img src="rclone-config-interactive.JPG" alt="rclone config edit" class="figure mx-auto d-block"><div class="figcaption">rclone config edit</div>
 </figure>
 </div>
-</section><section id="reference"><h2 class="section-heading">Reference<a class="anchor" aria-label="anchor" href="#reference"></a>
+</section><section id="rclone-command-flags"><h2 class="section-heading">rclone command flags<a class="anchor" aria-label="anchor" href="#rclone-command-flags"></a>
+</h2>
+<hr class="half-width">
+<p>There are numerous command flags but these three are especially worth
+remembering:</p>
+<ul>
+<li>
+<strong>-n, –dry-run</strong> Do a trial run with no permanent
+changes</li>
+<li>
+<strong>-i, –interactive</strong> Enable interactive mode</li>
+<li>
+<strong>-v, –verbose count</strong> Print lots more stuff (repeat
+for more) - useful when debugging</li>
+</ul></section><section id="reference"><h2 class="section-heading">Reference<a class="anchor" aria-label="anchor" href="#reference"></a>
 </h2>
 <hr class="half-width">
 <p><a href="https://rclone.org/commands/rclone_config/" class="external-link">https://rclone.org/commands/rclone_config/</a></p>
+<p><a href="https://rclone.org/flags/#important" class="external-link">https://rclone.org/flags/#important</a></p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
