@@ -2,4 +2,8 @@
 title: 'Instructor Notes'
 ---
 
-This is a placeholder file. Please add content here. 
+## rclone config command
+
+live code config command:  rclone config
+
+Some useful flags (dry-run, interactive, verbose)
