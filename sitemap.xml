@@ -19,6 +19,9 @@
     <loc>https://ucla-data-science-center.github.io/rclone-intro.git/copy-or-sync.html</loc>
   </url>
   <url>
+    <loc>https://ucla-data-science-center.github.io/rclone-intro.git/copy-sync-or-move.html</loc>
+  </url>
+  <url>
     <loc>https://ucla-data-science-center.github.io/rclone-intro.git/creating-connections.html</loc>
   </url>
   <url>
@@ -47,6 +50,9 @@
   </url>
   <url>
     <loc>https://ucla-data-science-center.github.io/rclone-intro.git/instructor/copy-or-sync.html</loc>
+  </url>
+  <url>
+    <loc>https://ucla-data-science-center.github.io/rclone-intro.git/instructor/copy-sync-or-move.html</loc>
   </url>
   <url>
     <loc>https://ucla-data-science-center.github.io/rclone-intro.git/instructor/creating-connections.html</loc>
