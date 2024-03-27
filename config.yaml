@@ -63,8 +63,7 @@ episodes:
 - configure-rclone.md
 - moving-files.md
 - creating-connections.md
-- rclone-move-command.md
-- copy-or-sync.md
+- copy-sync-or-move.md
 - getting-help.md
 
 # Information for Learners

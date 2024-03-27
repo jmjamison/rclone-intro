@@ -1,5 +1,5 @@
 ---
-title: "moving files"
+title: "moving files around"
 output: html_document
 date: "2024-03-26"
 ---
@@ -16,6 +16,9 @@ source:folder     destination:folder
 or
 
 local/path  remote/path
+
+## valid remote names  
+[https://rclone.org/docs/#valid-remote-names](https://rclone.org/docs/#valid-remote-names)
 
 
 ##### more examples:
@@ -38,6 +41,6 @@ Linux syntax:  rclone ls /mnt/c/Users/jjamison/rclone
 ## Reference:
 [https://rclone.org/docs/#subcommands](https://rclone.org/docs/#subcommands)
 
-Windows [https://rclone.org/docs/#windows](https://rclone.org/docs/#windows)
+Windows [https://rclone.org/docs/#windows](https://rclone.org/docs/#windows)   
 
-Linux  [https://rclone.org/docs/#linux-osx](https://rclone.org/docs/#linux-osx)
+Linux  [https://rclone.org/docs/#linux-osx](https://rclone.org/docs/#linux-osx)   
