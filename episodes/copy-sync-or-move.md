@@ -1,5 +1,5 @@
 ---
-title: "copy-or-sync"
+title: "copy-sync or-move"
 output: html_document
 date: "2024-03-22"
 ---
@@ -8,7 +8,10 @@ date: "2024-03-22"
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Copy vs Sync
+## Move vs Copy vs Sync: what is the difference
+
+[explain here]  
+
 
 **Copy** 
 Copy files from source to dest, skipping identical files.
@@ -29,4 +32,20 @@ Make source and dest identical, modifying destination only.
 
 Sync the source to the destination, changing the destination only. Doesn't transfer files that are identical on source and destination, testing by size and modification time or MD5SUM. Destination is updated to match source, including deleting files if necessary (except duplicate objects, see below). If you don't want to delete files from destination, use the copy command instead.
 
-##### syntax: rclone sync --interactive SOURCE remote:DESTINATION
+##### syntax: rclone sync --interactive SOURCE remote:DESTINATION   
+
+
+## rclone move command
+
+Moves the contents of the source directory to the destination directory. Rclone will error if the source and destination overlap and the remote does not support a server-side directory move operation.
+
+To move single files, use the moveto command instead.
+
+##Important Note:## Since this can cause data loss, ##test first with the --dry-run or the --interactive/-i flag##.
+
+
+##### syntax: rclone move source:path dest:path [flags]
+
+## Reference:  [https://rclone.org/commands/rclone_move/](https://rclone.org/commands/rclone_move/)
+
+
