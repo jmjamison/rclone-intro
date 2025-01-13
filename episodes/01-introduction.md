@@ -26,18 +26,16 @@ Rclone is a command line program to manage files on cloud storage. After downloa
 ::: challenge
 ## Challenge 1: What can you do with Rclone?
 
-How do you think you might use rclone?
 :::
   
-
 ::: solution
-## Discuss
+Move files both local and online
 
-``` 
+## DiscussL How do you think you might use rclone?  
+```    
+```   
 - For large files and/or multiple files rclone is efficient and fast
-- Backup work
-
-```
+- Backup work   
 :::
 
 ## Rclone command syntax
