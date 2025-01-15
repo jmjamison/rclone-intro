@@ -1,5 +1,5 @@
 # Add sandbox
-# install.packages(c("sandpaper", "varnish", "pegboard", "tinkr"), repos = c("https://carpentries.r-universe.dev/", getOption("repos")))
+install.packages(c("sandpaper", "varnish", "pegboard", "tinkr"), repos = c("https://carpentries.r-universe.dev/", getOption("repos")))
 
 # test setup
 
@@ -9,6 +9,10 @@ sandpaper::create_lesson(tmp, open = FALSE)
 sandpaper::build_lesson(tmp, preview = FALSE, quiet = TRUE)
 fs::dir_tree(tmp, recurse = 1)
 
+# Use `.md` files for episodes when you want static content
+# Use `.Rmd` files for episodes when you need to generate output
+# Run `sandpaper::check_lesson()` to identify any issues with your lesson
+# Run `sandpaper::build_lesson()` to preview your lesson locally
 # Use `.md` files for episodes when you want static content
 # Use `.Rmd` files for episodes when you need to generate output
 # Run `sandpaper::check_lesson()` to identify any issues with your lesson

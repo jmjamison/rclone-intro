@@ -13,12 +13,12 @@ exercises: 2
 ::: objectives
 -   Be able to transfer data from the command line using rclone
 -   Know where to get help and examples
--   [something else]
+-   Understand the difference between command line and gui applications
 :::
 
 ## Introduction
 
-Rclone is a command line program to manage files on cloud storage. After download and install, continue here to learn how to use it: Initial configuration, what the basic syntax looks like, describes the various subcommands, the various options, and more.
+Rclone is a *command line* program to manage files on cloud storage. After download and install, continue here to learn how to use it: Initial configuration, what the basic syntax looks like, describes the various subcommands, the various options, and more.
 
 ![Test Illustration](test-illustration.jpg)
 
@@ -27,13 +27,13 @@ Rclone is a command line program to manage files on cloud storage. After downloa
 ## Challenge 1: What can you do with Rclone?
 
 :::
-  
+
 ::: solution
 Move files both local and online
 
 ## Discussion: How do you think you might use rclone?  
 ```    
-```   
+```
 - For large files and/or multiple files rclone is efficient and fast
 - Backup work   
 :::
@@ -49,8 +49,8 @@ List of rclone commands: [https://rclone.org/commands/](https://rclone.org/comma
 
 
 ::: keypoints
--   Use `.md` files for episodes when you want static content
--   Use `.Rmd` files for episodes when you need to generate output
--   Run `sandpaper::check_lesson()` to identify any issues with your lesson
--   Run `sandpaper::build_lesson()` to preview your lesson locally
+-   Uses for rclone  
+-   Moving data
+-   Creating rclone connections
+-   Difference between command line and gui applications  
 :::
