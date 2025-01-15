@@ -16,7 +16,7 @@ Rclone download page.
 ::: discussion
 ### Details
 
-[rclone download page](https://rclone.org/downloads)
+[rclone download page](https://rclone.org/downloads/)
 :::
 
 ::: spoiler
