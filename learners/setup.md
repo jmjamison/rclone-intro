@@ -16,7 +16,7 @@ Rclone download page.
 ::: discussion
 ### Details
 
-![rclone download page](https://rclone.org/downloads)
+[rclone download page](https://rclone.org/downloads)
 :::
 
 ::: spoiler
@@ -28,7 +28,7 @@ Rclone download page.
 ::: spoiler
 ### MacOS
 
-[MacOS installation}(<https://rclone.org/install/#macos>)
+[macOS installation}(<https://rclone.org/install/#macos>)
 :::
 
 ::: spoiler
