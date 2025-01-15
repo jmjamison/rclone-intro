@@ -22,7 +22,7 @@ sand
 There are numerous command flags but these three are especially worth remembering:
 
 
--  **-n, --dry-run**         Do a trial run with no permanent changes
+- **-n, --dry-run**         Do a trial run with no permanent changes
 - **-i, --interactive**     Enable interactive mode
 - **-v, --verbose count**   Print lots more stuff (repeat for more) - useful when debugging
 

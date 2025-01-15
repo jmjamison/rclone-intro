@@ -62,13 +62,6 @@ episodes:
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes:
-- introduction.md
-- configure-rclone.md
-- moving-files.md
-- creating-connections.md
-- copy-sync-or-move.md
-- getting-help.md
 
 # Information for Learners
 learners:
